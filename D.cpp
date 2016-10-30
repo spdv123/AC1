@@ -13,7 +13,7 @@ int a[1010];
 
 void solve() {
   int len = strlen(buf);
-  for(int i=0;i<len;i++) a[i] = buf[i] = '0';
+  for(int i=0;i<len;i++) a[i] = buf[i] - '0';
 
 }
 
